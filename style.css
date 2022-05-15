@@ -1,0 +1,165 @@
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.nvarbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+body {
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgb(70, 180, 255, 0.5) 50%, rgb(70, 180, 255, 0.5) 50%), url(hoc-phi-DH-cong-nghe-thong-tin-UIT.jpg);
+    height: 105vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.menu {
+    margin-top: -20px;
+    width: 80%;
+    height: 100px;
+    background-color: rgb(32, 158, 255, 0.9);
+    float: right;
+}
+
+ul {
+    margin-top: -150px;
+    width: 80%;
+    height: 100px;
+    float: right;
+    margin-left: 200px;
+    overflow: hidden;
+}
+
+ul li {
+    list-style: none;
+    font-size: 21px;
+    line-height: 100px;
+    margin-left: 40px;
+    list-style: none;
+    margin-top: auto;
+    display: inline-flex;
+}
+
+ul li a {
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border: none;
+    padding: 5px 10px;
+    transition: all 0.2s ease-in;
+}
+
+ul li a {
+    color: #fff;
+}
+
+ul li a:hover {
+    background-color: #fff;
+    color: rgb(34, 182, 255);
+}
+
+.content {
+    width: 500px;
+    height: auto;
+    margin: auto;
+    color: rgb(254, 255, 255);
+    position: relative;
+    top: 120px;
+    padding-left: 180px;
+    margin-left: 40px;
+}
+
+.content h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    letter-spacing: 1px;
+    margin-top: 5%;
+}
+
+.content span {
+    color: rgb(49, 25, 203);
+    font-size: 48px;
+}
+
+.content button {
+    width: 150px;
+    height: 40px;
+    background-color: rgb(32, 158, 255);
+    border: none;
+    margin-left: 120px;
+    margin-bottom: 8px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.content button a {
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+.content button a {
+    color: #fff;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.content {
+    display: inline-block;
+    animation: fadeIn linear 2s;
+    -webkit-animation: fadeIn linear 2s;
+    -moz-animation: fadeIn linear 2s;
+    -o-animation: fadeIn linear 2s;
+    -ms-animation: fadeIn linear 2s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
